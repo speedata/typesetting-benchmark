@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+
+# LaTeX build artifacts
+*.aux
+*.log
+
+# Generated output files
+mailmerge*.pdf
+*.eps
+mailmerge_latex.tex
+mailmerge_lualatex.tex
+mailmerge_groff.roff
+mailmerge_weasy_debug.html
+fakenames_500.xml
+
+# speedata Publisher artifacts
+mailmerge_sp_*-aux.xml
+mailmerge_sp_*-protocol.xml
+mailmerge_sp_*.finished
+mailmerge_sp_*.status
+mailmerge_sp_*.vars
+mailmerge_sp_p-aux.xml
+mailmerge_sp_p-protocol.xml
+
+# Claude Code
+.claude/
