@@ -24,6 +24,20 @@ Each tool gets the same XML data (name, address) and produces the same letter la
 - [Apache FOP](https://xmlgraphics.apache.org/fop/)
 - [speedata Publisher](https://github.com/speedata/publisher)
 
+### Versions used
+
+| Tool | Version |
+|------|---------|
+| Python | 3.14.3 |
+| Jinja2 | 3.1.6 |
+| WeasyPrint | 68.1 |
+| Typst | 0.14.2 |
+| pdfTeX (pdflatex) | 3.141592653-2.6-1.40.24 (TeX Live 2022) |
+| LuaHBTeX (lualatex) | 1.15.0 (TeX Live 2022) |
+| Apache FOP | 2.11 |
+| speedata Publisher | 5.3.18 (Pro) |
+| hyperfine | 1.17.0 |
+
 ## Running
 
 Each `run_*.sh` script accepts `1` or `500` as argument for the number of pages:
